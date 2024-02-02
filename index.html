@@ -5,9 +5,35 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-Teaser
+
+<div class="desktop">
+    <video width="33,33334%" controls="false" muted autoplay playsinline style="pointer-events: none;" loop>
+        <source src="assets/IMG_9254.mp4" type="video/mp4">
+    </video>
+    <video width="33,33334%" controls="false" muted autoplay playsinline style="pointer-events: none;" loop>
+        <source src="assets/IMG_9205.mp4" type="video/mp4">
+    </video>
+    <video width="33,33334%" controls="false" muted autoplay playsinline style="pointer-events: none;" loop>
+        <source src="assets/IMG_9255.mp4" type="video/mp4">
+    </video>
+</div>
+
+<div class="mobile">
+    <video id="video1" controls="false" muted playsinline style="pointer-events: none;">
+        <source src="assets/IMG_9254.mp4" type="video/mp4">
+    </video>
+    <video id="video2" controls="false" muted playsinline style="pointer-events: none;" style="display: none;">
+        <source src="assets/IMG_9205.mp4" type="video/mp4">
+    </video>
+    <video id="video3" controls="false" muted playsinline style="pointer-events: none;" style="display: none;">
+        <source src="assets/IMG_9255.mp4" type="video/mp4">
+    </video>
+</div>
+<script src="main.js"></script>
+
 </body>
 </html>
