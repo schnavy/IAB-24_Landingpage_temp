@@ -42,7 +42,11 @@ video {
 
 video::-webkit-media-controls-panel {
     display: none !important;
-    opacity: 1 !important;
+    opacity: 0 !important;
+}
+
+video::-webkit-media-controls-timeline {
+    display: none;
 }
 
 .plyr.plyr--stopped .plyr__controls {
